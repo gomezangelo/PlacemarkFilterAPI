@@ -1,0 +1,64 @@
+[
+  {
+    "ContainingType": "PlacemarkFilterAPI.Controllers.PlacemarkController",
+    "Method": "GetPlacemarks",
+    "RelativePath": "api/Placemark",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Cliente",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Situacao",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Bairro",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Referencia",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RuaCruzamento",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PlacemarkFilterAPI.Controllers.PlacemarkController",
+    "Method": "ExportKml",
+    "RelativePath": "api/Placemark/export",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "criteria",
+        "Type": "PlacemarkFilterAPI.Models.FilterCriteria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PlacemarkFilterAPI.Controllers.PlacemarkController",
+    "Method": "GetAvailableFilters",
+    "RelativePath": "api/Placemark/filters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

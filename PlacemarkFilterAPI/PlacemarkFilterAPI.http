@@ -1,0 +1,4 @@
+@PlacemarkFilterAPI_HostAddress = http://localhost:5233
+
+GET {{PlacemarkFilterAPI_HostAddress}}/api/placemark
+Accept: application/json
